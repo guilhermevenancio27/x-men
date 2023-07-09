@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>x-men</title>
+    <link rel="stylesheet" href="/src/css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;600&family=Roboto:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css"/>
+    <link rel="stylesheet" href="./src/css/estilos.css"/>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img src="./src/imagens/logo.svg" alt="logo" class="logo" />
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">selecione um personagem</h1>
+        <ul class="lista">
+          <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-descricao="Ciclope é capaz de emitir rajadas ópticas extremamente poderosas de seus olhos, controladas por seus óculos de rubi-quartz.">
+            <img src="./src/imagens/card-ciclope.jpg" alt="ciclope"  />
+          </li>
+          <li class="personagem" id="jean-grey"  data-name="jean grey" data-descricao="Jean Grey é uma poderosa telepata e telecinética, capaz de ler mentes, controlar objetos com a mente e se tornar a hospedeira da entidade cósmica conhecida como Fênix, concedendo-lhe poderes ainda mais intensos.">
+            <img src="./src/imagens/card-jean-grey.jpg" alt="jean-grey"  />
+          </li>
+          <li class="personagem" id="tempestade" data-name="tempestade" data-descricao="Tempestade tem o poder de controlar o clima e os elementos naturais, manipulando ventos, tempestades, raios e temperaturas. Ela também pode voar e possui uma forte conexão com a natureza.">
+            <img src="./src/imagens/card-tempestade.jpg" alt="tempestade"  />
+          </li>
+          <li class="personagem" id="lince-negra" data-name="lince negra" data-descricao="Lince Negra tem a habilidade de se tornar intangível e atravessar objetos sólidos, tornando-se invulnerável a ataques físicos. Ela também possui habilidades furtivas e é uma excelente espiã." >
+            <img src="./src/imagens/card-lince-negra.jpg" alt="lince-negra"  />
+          </li>
+          <li class="personagem" id="magneto" data-name="magneto" data-descricao="Magneto é mestre do magnetismo, podendo gerar campos magnéticos, controlar metais e voar. Ele possui um controle preciso sobre os campos magnéticos ao seu redor e pode moldar objetos metálicos e criar escudos de proteção.">
+            <img src="./src/imagens/card-magneto.jpg" alt="magneto" />
+          </li>
+          <li class="personagem" id="noturno" data-name="noturno" data-descricao="Noturno tem a capacidade de se teletransportar instantaneamente e possui uma aparência física única, com pele azul, olhos amarelos e uma cauda preênsil. Ele também pode aderir a paredes, possui agilidade e habilidades acrobáticas excepcionais.">
+            <img src="./src/imagens/card-noturno.jpg" alt="noturno" />
+          </li>
+          <li class="personagem" id="vampira" data-name="vampira" data-descricao="Vampira pode absorver as memórias, habilidades e poderes de outras pessoas através do toque físico. No entanto, ela também drena parte da energia vital das pessoas e temporariamente pode utilizar os poderes absorvidos.">
+            <img src="./src/imagens/card-vampira.jpg" alt="vampira" />
+          </li>
+          <li class="personagem" id="wolverine" data-name="wolverine" data-descricao="Wolverine possui um fator de cura regenerativo avançado, que lhe permite se recuperar rapidamente e regenerar membros perdidos. Ele tem um esqueleto revestido com garras retráteis de adamantium, um dos metais mais fortes, e é um combatente habilidoso e formidável.">
+            <img src="./src/imagens/card-wolverine.jpg" alt="wolverine" />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/card-ciclope.png"
+          alt="personagem-selecionado"
+        />
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">ciclope</h2>
+          <p class="descricao" id="descricao">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+            laudantium nesciunt rem tempore ratione rerum odit eaque illo
+            numquam, eveniet vel incidunt est iure? Omnis vitae blanditiis nam
+            corporis impedit.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
